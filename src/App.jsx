@@ -9,7 +9,7 @@ const AGENCY = {
   address: "Village Road, Rural District, UP - 203207",
   phone: "+91 98765 43210",
   gst: "09ABCDE1234F1Z5",
-  logo: "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Indian_Oil_Logo.svg/1200px-Indian_Oil_Logo.svg.png"
+  logo: "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ea580c'%3E%3Cpath d='M12 2c0 0-5.5 6-5.5 11.5A5.5 5.5 0 0 0 12 19a5.5 5.5 0 0 0 5.5-5.5C17.5 8 12 2 12 2zM12 16.5c-1.38 0-2.5-1.12-2.5-2.5 0-1.8 2.5-4.5 2.5-4.5s2.5 2.7 2.5 4.5c0 1.38-1.12 2.5-2.5 2.5z'/%3E%3C/svg%3E"
 };
 
 const USERS_DATA = [
