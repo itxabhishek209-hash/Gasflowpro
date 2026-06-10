@@ -9,7 +9,7 @@ const AGENCY = {
   address: "Village Road, Rural District, UP - 203207",
   phone: "+91 98765 43210",
   gst: "09ABCDE1234F1Z5",
-  logo: "🔥"
+  logo: "https://upload.wikimedia.org/wikipedia/commons/c/cc/Indian_Oil_Logo.svg"
 };
 
 const USERS_DATA = [
@@ -269,7 +269,7 @@ function LoginPage({ onLogin }) {
     <div style={{ minHeight: "100vh", background: "linear-gradient(135deg, #0f1e3d 0%, #1a4fa0 50%, #0891b2 100%)", display: "flex", alignItems: "center", justifyContent: "center", padding: 16 }}>
       <div style={{ background: "rgba(255,255,255,0.1)", backdropFilter: "blur(20px)", borderRadius: 24, border: "1px solid rgba(255,255,255,0.2)", padding: "2.5rem 2rem", width: "100%", maxWidth: 420 }}>
         <div style={{ textAlign: "center", marginBottom: "2rem" }}>
-          <div style={{ fontSize: 52, marginBottom: 8 }}>🔥</div>
+          <img src={AGENCY.logo} alt="IndianOil Logo" style={{ height: 64, width: 64, marginBottom: 8, objectFit: "contain", background: "#fff", padding: "4px", borderRadius: "50%" }} />
           <div style={{ fontSize: 11, fontWeight: 700, color: "rgba(255,255,255,0.7)", letterSpacing: 3, textTransform: "uppercase", marginBottom: 8 }}>INDANE LPG</div>
           <h1 style={{ margin: 0, fontSize: 22, fontWeight: 800, color: "#fff", lineHeight: 1.3 }}>Maa Shaila Indane<br />Gramin Vitrak</h1>
           <p style={{ margin: "12px 0 0", fontSize: 13, color: "rgba(255,255,255,0.7)" }}>Management System — Staff Login</p>
@@ -342,7 +342,7 @@ function Dashboard({ deliveries, officeSales, expenses, stock, vans }) {
       {/* Agency Header */}
       <div style={{ background: `linear-gradient(135deg, ${colors.sidebar} 0%, ${colors.primary} 100%)`, borderRadius: 16, padding: "1.5rem", color: "#fff", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-          <div style={{ fontSize: 44 }}>🔥</div>
+          <img src={AGENCY.logo} alt="IndianOil Logo" style={{ height: 56, width: 56, objectFit: "contain", background: "#fff", padding: "4px", borderRadius: "50%" }} />
           <div>
             <div style={{ fontSize: 11, fontWeight: 600, color: "rgba(255,255,255,0.7)", letterSpacing: 2, textTransform: "uppercase" }}>Indane LPG Distributor</div>
             <div style={{ fontSize: 20, fontWeight: 800 }}>{AGENCY.name}</div>
